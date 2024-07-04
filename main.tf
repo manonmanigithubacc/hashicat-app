@@ -201,6 +201,6 @@ resource "aws_key_pair" "hashicat" {
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws" # Example for a registry module
   version             = "3.1.0"
-  s3_object_ownership = "BucketOwnerEnforced"
+  #s3_object_ownership = "BucketOwnerEnforced"
 }
 
